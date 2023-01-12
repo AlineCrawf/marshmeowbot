@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-01-12T11:04:22.406Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.4" etag="VUXFSgcNQeOCo_grWEeM" type="github"><diagram id="n877kDeUeg95mvwl5-xx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-12T11:09:53.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.4" etag="r77ba0HYt0X1oKbSGM83" type="github">
+  <diagram id="bAOUdy10w-FH2GHyvMvI" name="Страница 1">
+    <mxGraphModel dx="880" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Slbim8UTklvKf4Fmrvhc-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Slbim8UTklvKf4Fmrvhc-2" target="Slbim8UTklvKf4Fmrvhc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Slbim8UTklvKf4Fmrvhc-2" value="Source layer" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Slbim8UTklvKf4Fmrvhc-4" value="Kaggle dataset (какой пока хз)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Slbim8UTklvKf4Fmrvhc-2">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Slbim8UTklvKf4Fmrvhc-12" value="Telegram messages" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="Slbim8UTklvKf4Fmrvhc-2">
+          <mxGeometry x="20" y="30" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Slbim8UTklvKf4Fmrvhc-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Slbim8UTklvKf4Fmrvhc-5" target="Slbim8UTklvKf4Fmrvhc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Slbim8UTklvKf4Fmrvhc-5" value="DWH" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Slbim8UTklvKf4Fmrvhc-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Slbim8UTklvKf4Fmrvhc-7" target="Slbim8UTklvKf4Fmrvhc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Slbim8UTklvKf4Fmrvhc-7" value="ML module&lt;br&gt;(как без него)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Slbim8UTklvKf4Fmrvhc-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Slbim8UTklvKf4Fmrvhc-8" target="Slbim8UTklvKf4Fmrvhc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Slbim8UTklvKf4Fmrvhc-8" value="Черная коробка логики" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Slbim8UTklvKf4Fmrvhc-11" value="Answer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
